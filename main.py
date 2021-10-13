@@ -3,6 +3,8 @@ import pandas as pd
 import xlsxwriter as xl
 import requests
 import math
+
+#An Authentic API Key must be used for app to function. Build Secrets.py and insert IEX Cloud API Token. 
 from secrets import IEX_CLOUD_API_TOKEN
 
 clean = pd.read_csv('stocks.csv')
